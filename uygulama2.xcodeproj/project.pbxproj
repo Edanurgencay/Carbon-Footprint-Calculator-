@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5149BDF2BFF74DF00EE705F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5149BDE2BFF74DF00EE705F /* Assets.xcassets */; };
+		A5149BE22BFF75E900EE705F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5149BE12BFF75E900EE705F /* Preview Assets.xcassets */; };
+		A5149BE42BFFF11500EE705F /* PublicTransportMileageInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5149BE32BFFF11500EE705F /* PublicTransportMileageInput.swift */; };
+		A5149BE62C00054700EE705F /* MeatConsumptionForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5149BE52C00054700EE705F /* MeatConsumptionForm.swift */; };
+		A5149BE82C00067C00EE705F /* MilkConsumptionForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5149BE72C00067C00EE705F /* MilkConsumptionForm.swift */; };
+		A5149BEA2C00068F00EE705F /* FruitVegetableIntakeForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5149BE92C00068F00EE705F /* FruitVegetableIntakeForm.swift */; };
+		A5149BEC2C000C6400EE705F /* CottonClothingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5149BEB2C000C6400EE705F /* CottonClothingEntry.swift */; };
+		A5149BEE2C000C7400EE705F /* PolyesterClothingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5149BED2C000C7400EE705F /* PolyesterClothingEntry.swift */; };
+		A51F4CB62C55416C0010561A /* AuthenticationMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51F4CB52C55416C0010561A /* AuthenticationMedia.xcassets */; };
+		A51F4CB82C554FDB0010561A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F4CB72C554FDB0010561A /* MainView.swift */; };
+		A54796B62BFAC727002BA82B /* FamilySizeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54796B52BFAC727002BA82B /* FamilySizeInput.swift */; };
+		A54911022C585AD80075A0FE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54911012C585AD80075A0FE /* Media.xcassets */; };
+		A54911082C5961840075A0FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A54911072C5961840075A0FE /* GoogleService-Info.plist */; };
+		A54A8F452C552B73002EAB9E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54A8F442C552B73002EAB9E /* Media.xcassets */; };
+		A54EC36B2BF1E05D002B0550 /* uygulama2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC36A2BF1E05D002B0550 /* uygulama2App.swift */; };
+		A54EC36D2BF1E05D002B0550 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC36C2BF1E05D002B0550 /* LoginPage.swift */; };
+		A54EC37C2BF1F0B0002B0550 /* RobotoSlab-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A54EC37B2BF1F0B0002B0550 /* RobotoSlab-VariableFont_wght.ttf */; };
+		A54EC39B2BF20996002B0550 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC39A2BF20996002B0550 /* WelcomePage.swift */; };
+		A54EC3DB2BF33834002B0550 /* colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54EC3DA2BF33833002B0550 /* colors.xcassets */; };
+		A54EC4012BF341C2002B0550 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC4002BF341C2002B0550 /* StartScreen.swift */; };
+		A54EC4052BF37AEE002B0550 /* ElectricityConsumptionForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC4042BF37AEE002B0550 /* ElectricityConsumptionForm.swift */; };
+		A54EC4072BF37CAA002B0550 /* WaterConsumptionForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC4062BF37CAA002B0550 /* WaterConsumptionForm.swift */; };
+		A54EC4092BF37CDF002B0550 /* HeatingSourceSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC4082BF37CDF002B0550 /* HeatingSourceSelection.swift */; };
+		A54EC40B2BF37D5D002B0550 /* NaturalGasConsumptionInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC40A2BF37D5D002B0550 /* NaturalGasConsumptionInput.swift */; };
+		A54EC40D2BF49CA9002B0550 /* CoalConsumptionInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC40C2BF49CA9002B0550 /* CoalConsumptionInput.swift */; };
+		A54EC40F2BF49CBC002B0550 /* VehicleOwnershipQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC40E2BF49CBB002B0550 /* VehicleOwnershipQuestion.swift */; };
+		A54EC4152BF49E3E002B0550 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54EC4142BF49E3E002B0550 /* Launch Screen.storyboard */; };
+		A54EC45B2BF74160002B0550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC45A2BF74160002B0550 /* ContentView.swift */; };
+		A54EC45F2BF74189002B0550 /* BlogPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC45E2BF74189002B0550 /* BlogPosts.swift */; };
+		A54EC4612BF7419F002B0550 /* BlogPostCardMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC4602BF7419F002B0550 /* BlogPostCardMain.swift */; };
+		A54EC4632BF741B3002B0550 /* HexColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC4622BF741B3002B0550 /* HexColorExtension.swift */; };
+		A54EC4652BF74201002B0550 /* BlogPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC4642BF74201002B0550 /* BlogPostView.swift */; };
+		A54EC4672BF74221002B0550 /* BlogPostCardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC4662BF74221002B0550 /* BlogPostCardList.swift */; };
+		A54EC4692BF7423A002B0550 /* AllPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC4682BF7423A002B0550 /* AllPosts.swift */; };
+		A54EC46B2BF74258002B0550 /* blogMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54EC46A2BF74258002B0550 /* blogMedia.xcassets */; };
+		A54EC4D72BF805AF002B0550 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A54EC4D62BF805AF002B0550 /* FirebaseAnalytics */; };
+		A54EC4DA2BF8A044002B0550 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A54EC4D92BF8A044002B0550 /* FirebaseAuth */; };
+		A54EC4DC2BF8A054002B0550 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A54EC4DB2BF8A054002B0550 /* FirebaseAnalyticsSwift */; };
+		A54EC4DE2BF8A862002B0550 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC4DD2BF8A862002B0550 /* SignUpPage.swift */; };
+		A54EC4E02BF8D5FF002B0550 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A54EC4DF2BF8D5FF002B0550 /* FirebaseAuthCombine-Community */; };
+		A54EC4EC2BF92242002B0550 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A54EC4EB2BF92242002B0550 /* FirebaseFirestore */; };
+		A54EC4EE2BF9224C002B0550 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A54EC4ED2BF9224C002B0550 /* FirebaseFirestoreCombine-Community */; };
+		A54EC4F02BF9224C002B0550 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A54EC4EF2BF9224C002B0550 /* FirebaseFirestoreSwift */; };
+		A54EC5252BF93BC3002B0550 /* CarbonFootprintViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC5242BF93BC3002B0550 /* CarbonFootprintViewModel.swift */; };
+		A54EC52F2BF95F6C002B0550 /* VehicleFuelTypeSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC52E2BF95F6C002B0550 /* VehicleFuelTypeSelection.swift */; };
+		A54EC5332BF9612D002B0550 /* GasolineMileageInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC5322BF9612D002B0550 /* GasolineMileageInput.swift */; };
+		A54EC5352BF96147002B0550 /* DieselMileageInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC5342BF96147002B0550 /* DieselMileageInput.swift */; };
+		A54EC5372BF9616C002B0550 /* LpgMileageInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC5362BF9616C002B0550 /* LpgMileageInput.swift */; };
+		A54EC53D2BFA0666002B0550 /* DietTypeSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC53C2BFA0666002B0550 /* DietTypeSelection.swift */; };
+		A54EC53F2BFA0673002B0550 /* ClothingFabricChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC53E2BFA0673002B0550 /* ClothingFabricChoice.swift */; };
+		A54EC5412BFA0684002B0550 /* CarbonOffsetInquiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC5402BFA0684002B0550 /* CarbonOffsetInquiry.swift */; };
+		A54EC5432BFA10C0002B0550 /* CertificateCO2Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC5422BFA10C0002B0550 /* CertificateCO2Input.swift */; };
+		A54EC5452BFA1232002B0550 /* CarbonFootprintResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC5442BFA1232002B0550 /* CarbonFootprintResultsView.swift */; };
+		A54EC5472BFA25CA002B0550 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC5462BFA25CA002B0550 /* SettingsPage.swift */; };
+		A54EC5492BFA25FC002B0550 /* DonationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC5482BFA25FC002B0550 /* DonationPage.swift */; };
+		A54EC54B2BFA2828002B0550 /* NotificationsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC54A2BFA2828002B0550 /* NotificationsPage.swift */; };
+		A559B85A2BFAABD100329013 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A559B8592BFAABD100329013 /* FirebaseManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5149BDE2BFF74DF00EE705F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5149BE12BFF75E900EE705F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5149BE32BFFF11500EE705F /* PublicTransportMileageInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicTransportMileageInput.swift; sourceTree = "<group>"; };
+		A5149BE52C00054700EE705F /* MeatConsumptionForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatConsumptionForm.swift; sourceTree = "<group>"; };
+		A5149BE72C00067C00EE705F /* MilkConsumptionForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkConsumptionForm.swift; sourceTree = "<group>"; };
+		A5149BE92C00068F00EE705F /* FruitVegetableIntakeForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitVegetableIntakeForm.swift; sourceTree = "<group>"; };
+		A5149BEB2C000C6400EE705F /* CottonClothingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CottonClothingEntry.swift; sourceTree = "<group>"; };
+		A5149BED2C000C7400EE705F /* PolyesterClothingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyesterClothingEntry.swift; sourceTree = "<group>"; };
+		A51F4CB52C55416C0010561A /* AuthenticationMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AuthenticationMedia.xcassets; sourceTree = "<group>"; };
+		A51F4CB72C554FDB0010561A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A54796B52BFAC727002BA82B /* FamilySizeInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilySizeInput.swift; sourceTree = "<group>"; };
+		A54911012C585AD80075A0FE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		A54911072C5961840075A0FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A54A8F422C5468E3002EAB9E /* uygulama2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uygulama2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54A8F442C552B73002EAB9E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		A54EC36A2BF1E05D002B0550 /* uygulama2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uygulama2App.swift; sourceTree = "<group>"; };
+		A54EC36C2BF1E05D002B0550 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		A54EC37B2BF1F0B0002B0550 /* RobotoSlab-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		A54EC37D2BF1F215002B0550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A54EC39A2BF20996002B0550 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		A54EC3DA2BF33833002B0550 /* colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = colors.xcassets; sourceTree = "<group>"; };
+		A54EC4002BF341C2002B0550 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		A54EC4042BF37AEE002B0550 /* ElectricityConsumptionForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityConsumptionForm.swift; sourceTree = "<group>"; };
+		A54EC4062BF37CAA002B0550 /* WaterConsumptionForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterConsumptionForm.swift; sourceTree = "<group>"; };
+		A54EC4082BF37CDF002B0550 /* HeatingSourceSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatingSourceSelection.swift; sourceTree = "<group>"; };
+		A54EC40A2BF37D5D002B0550 /* NaturalGasConsumptionInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalGasConsumptionInput.swift; sourceTree = "<group>"; };
+		A54EC40C2BF49CA9002B0550 /* CoalConsumptionInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoalConsumptionInput.swift; sourceTree = "<group>"; };
+		A54EC40E2BF49CBB002B0550 /* VehicleOwnershipQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleOwnershipQuestion.swift; sourceTree = "<group>"; };
+		A54EC4142BF49E3E002B0550 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A54EC45A2BF74160002B0550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A54EC45E2BF74189002B0550 /* BlogPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPosts.swift; sourceTree = "<group>"; };
+		A54EC4602BF7419F002B0550 /* BlogPostCardMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostCardMain.swift; sourceTree = "<group>"; };
+		A54EC4622BF741B3002B0550 /* HexColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorExtension.swift; sourceTree = "<group>"; };
+		A54EC4642BF74201002B0550 /* BlogPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostView.swift; sourceTree = "<group>"; };
+		A54EC4662BF74221002B0550 /* BlogPostCardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostCardList.swift; sourceTree = "<group>"; };
+		A54EC4682BF7423A002B0550 /* AllPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPosts.swift; sourceTree = "<group>"; };
+		A54EC46A2BF74258002B0550 /* blogMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = blogMedia.xcassets; sourceTree = "<group>"; };
+		A54EC4DD2BF8A862002B0550 /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
+		A54EC5242BF93BC3002B0550 /* CarbonFootprintViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonFootprintViewModel.swift; sourceTree = "<group>"; };
+		A54EC52E2BF95F6C002B0550 /* VehicleFuelTypeSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleFuelTypeSelection.swift; sourceTree = "<group>"; };
+		A54EC5322BF9612D002B0550 /* GasolineMileageInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasolineMileageInput.swift; sourceTree = "<group>"; };
+		A54EC5342BF96147002B0550 /* DieselMileageInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DieselMileageInput.swift; sourceTree = "<group>"; };
+		A54EC5362BF9616C002B0550 /* LpgMileageInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LpgMileageInput.swift; sourceTree = "<group>"; };
+		A54EC53C2BFA0666002B0550 /* DietTypeSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTypeSelection.swift; sourceTree = "<group>"; };
+		A54EC53E2BFA0673002B0550 /* ClothingFabricChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingFabricChoice.swift; sourceTree = "<group>"; };
+		A54EC5402BFA0684002B0550 /* CarbonOffsetInquiry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonOffsetInquiry.swift; sourceTree = "<group>"; };
+		A54EC5422BFA10C0002B0550 /* CertificateCO2Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateCO2Input.swift; sourceTree = "<group>"; };
+		A54EC5442BFA1232002B0550 /* CarbonFootprintResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonFootprintResultsView.swift; sourceTree = "<group>"; };
+		A54EC5462BFA25CA002B0550 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		A54EC5482BFA25FC002B0550 /* DonationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationPage.swift; sourceTree = "<group>"; };
+		A54EC54A2BFA2828002B0550 /* NotificationsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsPage.swift; sourceTree = "<group>"; };
+		A559B8592BFAABD100329013 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A54EC3642BF1E05D002B0550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54EC4DC2BF8A054002B0550 /* FirebaseAnalyticsSwift in Frameworks */,
+				A54EC4D72BF805AF002B0550 /* FirebaseAnalytics in Frameworks */,
+				A54EC4DA2BF8A044002B0550 /* FirebaseAuth in Frameworks */,
+				A54EC4F02BF9224C002B0550 /* FirebaseFirestoreSwift in Frameworks */,
+				A54EC4EE2BF9224C002B0550 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				A54EC4EC2BF92242002B0550 /* FirebaseFirestore in Frameworks */,
+				A54EC4E02BF8D5FF002B0550 /* FirebaseAuthCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5156CC82C59A77600A6A835 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A5149BE12BFF75E900EE705F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A51F4CB42C55414D0010561A /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				A54EC39A2BF20996002B0550 /* WelcomePage.swift */,
+				A54EC36C2BF1E05D002B0550 /* LoginPage.swift */,
+				A54EC4DD2BF8A862002B0550 /* SignUpPage.swift */,
+				A51F4CB52C55416C0010561A /* AuthenticationMedia.xcassets */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		A54910FF2C5859340075A0FE /* Blog */ = {
+			isa = PBXGroup;
+			children = (
+				A54EC4602BF7419F002B0550 /* BlogPostCardMain.swift */,
+				A54EC4662BF74221002B0550 /* BlogPostCardList.swift */,
+				A54EC4642BF74201002B0550 /* BlogPostView.swift */,
+				A54EC45E2BF74189002B0550 /* BlogPosts.swift */,
+				A54EC4622BF741B3002B0550 /* HexColorExtension.swift */,
+				A54EC46A2BF74258002B0550 /* blogMedia.xcassets */,
+			);
+			path = Blog;
+			sourceTree = "<group>";
+		};
+		A54EC35E2BF1E05D002B0550 = {
+			isa = PBXGroup;
+			children = (
+				A54EC3692BF1E05D002B0550 /* uygulama2 */,
+				A54EC4D82BF8A044002B0550 /* Frameworks */,
+				A54A8F422C5468E3002EAB9E /* uygulama2.app */,
+			);
+			sourceTree = "<group>";
+		};
+		A54EC3692BF1E05D002B0550 /* uygulama2 */ = {
+			isa = PBXGroup;
+			children = (
+				A5156CC82C59A77600A6A835 /* Preview Content */,
+				A54EC3DA2BF33833002B0550 /* colors.xcassets */,
+				A5149BDE2BFF74DF00EE705F /* Assets.xcassets */,
+				A54EC4142BF49E3E002B0550 /* Launch Screen.storyboard */,
+				A559B8592BFAABD100329013 /* FirebaseManager.swift */,
+				A54EC36A2BF1E05D002B0550 /* uygulama2App.swift */,
+				A54EC3782BF1EFAD002B0550 /* font */,
+				A51F4CB42C55414D0010561A /* Authentication */,
+				A54EC4472BF5F345002B0550 /* Views */,
+				A54910FF2C5859340075A0FE /* Blog */,
+				A54EC5232BF93BAD002B0550 /* CarbonFootprintCalculateQuestion */,
+				A54EC37D2BF1F215002B0550 /* Info.plist */,
+				A54911072C5961840075A0FE /* GoogleService-Info.plist */,
+			);
+			path = uygulama2;
+			sourceTree = "<group>";
+		};
+		A54EC3782BF1EFAD002B0550 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				A54EC37B2BF1F0B0002B0550 /* RobotoSlab-VariableFont_wght.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		A54EC4472BF5F345002B0550 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A51F4CB72C554FDB0010561A /* MainView.swift */,
+				A54EC45A2BF74160002B0550 /* ContentView.swift */,
+				A54EC5462BFA25CA002B0550 /* SettingsPage.swift */,
+				A54EC54A2BFA2828002B0550 /* NotificationsPage.swift */,
+				A54EC5482BFA25FC002B0550 /* DonationPage.swift */,
+				A54EC4682BF7423A002B0550 /* AllPosts.swift */,
+				A54A8F442C552B73002EAB9E /* Media.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A54EC4D82BF8A044002B0550 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A54EC5232BF93BAD002B0550 /* CarbonFootprintCalculateQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				A54EC5242BF93BC3002B0550 /* CarbonFootprintViewModel.swift */,
+				A54EC4002BF341C2002B0550 /* StartScreen.swift */,
+				A54796B52BFAC727002BA82B /* FamilySizeInput.swift */,
+				A54EC4042BF37AEE002B0550 /* ElectricityConsumptionForm.swift */,
+				A54EC4062BF37CAA002B0550 /* WaterConsumptionForm.swift */,
+				A54EC4082BF37CDF002B0550 /* HeatingSourceSelection.swift */,
+				A54EC40A2BF37D5D002B0550 /* NaturalGasConsumptionInput.swift */,
+				A54EC40C2BF49CA9002B0550 /* CoalConsumptionInput.swift */,
+				A54EC40E2BF49CBB002B0550 /* VehicleOwnershipQuestion.swift */,
+				A54EC52E2BF95F6C002B0550 /* VehicleFuelTypeSelection.swift */,
+				A54EC5322BF9612D002B0550 /* GasolineMileageInput.swift */,
+				A54EC5342BF96147002B0550 /* DieselMileageInput.swift */,
+				A54EC5362BF9616C002B0550 /* LpgMileageInput.swift */,
+				A5149BE32BFFF11500EE705F /* PublicTransportMileageInput.swift */,
+				A54EC53C2BFA0666002B0550 /* DietTypeSelection.swift */,
+				A5149BE52C00054700EE705F /* MeatConsumptionForm.swift */,
+				A5149BE72C00067C00EE705F /* MilkConsumptionForm.swift */,
+				A5149BE92C00068F00EE705F /* FruitVegetableIntakeForm.swift */,
+				A54EC53E2BFA0673002B0550 /* ClothingFabricChoice.swift */,
+				A5149BEB2C000C6400EE705F /* CottonClothingEntry.swift */,
+				A5149BED2C000C7400EE705F /* PolyesterClothingEntry.swift */,
+				A54EC5402BFA0684002B0550 /* CarbonOffsetInquiry.swift */,
+				A54EC5422BFA10C0002B0550 /* CertificateCO2Input.swift */,
+				A54EC5442BFA1232002B0550 /* CarbonFootprintResultsView.swift */,
+				A54911012C585AD80075A0FE /* Media.xcassets */,
+			);
+			path = CarbonFootprintCalculateQuestion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A54EC3662BF1E05D002B0550 /* uygulama2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54EC3752BF1E05E002B0550 /* Build configuration list for PBXNativeTarget "uygulama2" */;
+			buildPhases = (
+				A54EC3632BF1E05D002B0550 /* Sources */,
+				A54EC3642BF1E05D002B0550 /* Frameworks */,
+				A54EC3652BF1E05D002B0550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uygulama2;
+			packageProductDependencies = (
+				A54EC4D62BF805AF002B0550 /* FirebaseAnalytics */,
+				A54EC4D92BF8A044002B0550 /* FirebaseAuth */,
+				A54EC4DB2BF8A054002B0550 /* FirebaseAnalyticsSwift */,
+				A54EC4DF2BF8D5FF002B0550 /* FirebaseAuthCombine-Community */,
+				A54EC4EB2BF92242002B0550 /* FirebaseFirestore */,
+				A54EC4ED2BF9224C002B0550 /* FirebaseFirestoreCombine-Community */,
+				A54EC4EF2BF9224C002B0550 /* FirebaseFirestoreSwift */,
+			);
+			productName = uygulama2;
+			productReference = A54A8F422C5468E3002EAB9E /* uygulama2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A54EC35F2BF1E05D002B0550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A54EC3662BF1E05D002B0550 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = A54EC3622BF1E05D002B0550 /* Build configuration list for PBXProject "uygulama2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A54EC35E2BF1E05D002B0550;
+			packageReferences = (
+				A54EC4D52BF7FFC8002B0550 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = A54EC35E2BF1E05D002B0550;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A54EC3662BF1E05D002B0550 /* uygulama2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A54EC3652BF1E05D002B0550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54911022C585AD80075A0FE /* Media.xcassets in Resources */,
+				A5149BE22BFF75E900EE705F /* Preview Assets.xcassets in Resources */,
+				A51F4CB62C55416C0010561A /* AuthenticationMedia.xcassets in Resources */,
+				A54A8F452C552B73002EAB9E /* Media.xcassets in Resources */,
+				A54EC46B2BF74258002B0550 /* blogMedia.xcassets in Resources */,
+				A54EC37C2BF1F0B0002B0550 /* RobotoSlab-VariableFont_wght.ttf in Resources */,
+				A54EC3DB2BF33834002B0550 /* colors.xcassets in Resources */,
+				A54911082C5961840075A0FE /* GoogleService-Info.plist in Resources */,
+				A5149BDF2BFF74DF00EE705F /* Assets.xcassets in Resources */,
+				A54EC4152BF49E3E002B0550 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A54EC3632BF1E05D002B0550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A559B85A2BFAABD100329013 /* FirebaseManager.swift in Sources */,
+				A54EC5332BF9612D002B0550 /* GasolineMileageInput.swift in Sources */,
+				A54EC5252BF93BC3002B0550 /* CarbonFootprintViewModel.swift in Sources */,
+				A54EC40F2BF49CBC002B0550 /* VehicleOwnershipQuestion.swift in Sources */,
+				A54EC45B2BF74160002B0550 /* ContentView.swift in Sources */,
+				A54EC4692BF7423A002B0550 /* AllPosts.swift in Sources */,
+				A54EC45F2BF74189002B0550 /* BlogPosts.swift in Sources */,
+				A54EC4092BF37CDF002B0550 /* HeatingSourceSelection.swift in Sources */,
+				A51F4CB82C554FDB0010561A /* MainView.swift in Sources */,
+				A54EC53F2BFA0673002B0550 /* ClothingFabricChoice.swift in Sources */,
+				A54EC5472BFA25CA002B0550 /* SettingsPage.swift in Sources */,
+				A54EC52F2BF95F6C002B0550 /* VehicleFuelTypeSelection.swift in Sources */,
+				A54EC4052BF37AEE002B0550 /* ElectricityConsumptionForm.swift in Sources */,
+				A54EC4072BF37CAA002B0550 /* WaterConsumptionForm.swift in Sources */,
+				A54EC4012BF341C2002B0550 /* StartScreen.swift in Sources */,
+				A54EC4652BF74201002B0550 /* BlogPostView.swift in Sources */,
+				A54796B62BFAC727002BA82B /* FamilySizeInput.swift in Sources */,
+				A5149BEE2C000C7400EE705F /* PolyesterClothingEntry.swift in Sources */,
+				A54EC36D2BF1E05D002B0550 /* LoginPage.swift in Sources */,
+				A54EC5412BFA0684002B0550 /* CarbonOffsetInquiry.swift in Sources */,
+				A54EC4632BF741B3002B0550 /* HexColorExtension.swift in Sources */,
+				A5149BE42BFFF11500EE705F /* PublicTransportMileageInput.swift in Sources */,
+				A5149BE82C00067C00EE705F /* MilkConsumptionForm.swift in Sources */,
+				A54EC54B2BFA2828002B0550 /* NotificationsPage.swift in Sources */,
+				A5149BEC2C000C6400EE705F /* CottonClothingEntry.swift in Sources */,
+				A54EC4672BF74221002B0550 /* BlogPostCardList.swift in Sources */,
+				A54EC36B2BF1E05D002B0550 /* uygulama2App.swift in Sources */,
+				A54EC5372BF9616C002B0550 /* LpgMileageInput.swift in Sources */,
+				A54EC5452BFA1232002B0550 /* CarbonFootprintResultsView.swift in Sources */,
+				A54EC5352BF96147002B0550 /* DieselMileageInput.swift in Sources */,
+				A5149BEA2C00068F00EE705F /* FruitVegetableIntakeForm.swift in Sources */,
+				A54EC40B2BF37D5D002B0550 /* NaturalGasConsumptionInput.swift in Sources */,
+				A54EC53D2BFA0666002B0550 /* DietTypeSelection.swift in Sources */,
+				A54EC40D2BF49CA9002B0550 /* CoalConsumptionInput.swift in Sources */,
+				A54EC4DE2BF8A862002B0550 /* SignUpPage.swift in Sources */,
+				A54EC39B2BF20996002B0550 /* WelcomePage.swift in Sources */,
+				A5149BE62C00054700EE705F /* MeatConsumptionForm.swift in Sources */,
+				A54EC5492BFA25FC002B0550 /* DonationPage.swift in Sources */,
+				A54EC5432BFA10C0002B0550 /* CertificateCO2Input.swift in Sources */,
+				A54EC4612BF7419F002B0550 /* BlogPostCardMain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A54EC3732BF1E05E002B0550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A54EC3742BF1E05E002B0550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A54EC3762BF1E05E002B0550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"uygulama2/Preview Content\"";
+				DEVELOPMENT_TEAM = 52L3M433M6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = uygulama2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Carbon Footprint Calculator";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewitheda.uygulama2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A54EC3772BF1E05E002B0550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"uygulama2/Preview Content\"";
+				DEVELOPMENT_TEAM = 52L3M433M6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = uygulama2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Carbon Footprint Calculator";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewitheda.uygulama2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A54EC3622BF1E05D002B0550 /* Build configuration list for PBXProject "uygulama2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54EC3732BF1E05E002B0550 /* Debug */,
+				A54EC3742BF1E05E002B0550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54EC3752BF1E05E002B0550 /* Build configuration list for PBXNativeTarget "uygulama2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54EC3762BF1E05E002B0550 /* Debug */,
+				A54EC3772BF1E05E002B0550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A54EC4D52BF7FFC8002B0550 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A54EC4D62BF805AF002B0550 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A54EC4D52BF7FFC8002B0550 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A54EC4D92BF8A044002B0550 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A54EC4D52BF7FFC8002B0550 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A54EC4DB2BF8A054002B0550 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A54EC4D52BF7FFC8002B0550 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		A54EC4DF2BF8D5FF002B0550 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A54EC4D52BF7FFC8002B0550 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		A54EC4EB2BF92242002B0550 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A54EC4D52BF7FFC8002B0550 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A54EC4ED2BF9224C002B0550 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A54EC4D52BF7FFC8002B0550 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		A54EC4EF2BF9224C002B0550 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A54EC4D52BF7FFC8002B0550 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A54EC35F2BF1E05D002B0550 /* Project object */;
+}
